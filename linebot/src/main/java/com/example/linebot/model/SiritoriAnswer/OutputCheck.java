@@ -35,7 +35,7 @@ public class OutputCheck {
 
         //語尾が「ん」である単語をコンピュータが選んだ場合はユーザの勝利
         if(matsubi.equals("ん")){
-            text  = text + "\n「ん」で終わっているなのだ\nあなたの勝ちなのだ\n「終了」と入力してください";
+            text  = text + " なのだ\n「ん」で終わっているなのだ\nあなたの勝ちなのだ\n「終了」と入力してください";
         }
 
         return text;

@@ -25,7 +25,7 @@ public class InputCheck {
         //使用済みリスト内に入力値が存在した場合はしりとり終了
         for(String str : game_siritori_list){
             if(str.equals(inputtext)){
-                return inputtext + "はすでに使われています。\nあなたの負けです。\n「終了」と入力してください";
+                return inputtext + " はすでに使われていますなのだ\nあなたの負けなのだ\n「終了」と入力してくださいなのだ";
             }
         }
 
